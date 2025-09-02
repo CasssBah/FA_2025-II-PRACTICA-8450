@@ -1,0 +1,8 @@
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\bin\Debug\SEMANA1_C#.exe.config
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\bin\Debug\SEMANA1_C#.exe
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\bin\Debug\SEMANA1_C#.pdb
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.csproj.AssemblyReference.cache
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.csproj.CoreCompileInputs.cache
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.pdb
+C:\Users\Pablin UPN\OneDrive - Universidad Privada del Norte\Documentos\UPN\Ejercicios fundamentos_2do ciclo\SEMANA 03\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe.config
