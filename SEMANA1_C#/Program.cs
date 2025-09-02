@@ -34,9 +34,23 @@ namespace SEMANA1_C_
             nombre = Console.ReadLine();
 
             Console.WriteLine("Tu nombre es:" + '"' + nombre + '"' );
+
+            ejer3();
         }
         static void ejer3() 
         {
+            Console.Write("Ingrese numero x: ");
+            int x = int.Parse( Console.ReadLine() );
+
+            Console.Write("Ingrese numero y: ");
+            int y = int.Parse( Console.ReadLine() ) ;
+
+            double resu = x/y ;
+
+            Console.WriteLine("Suma: " + (x+y));
+            Console.WriteLine("Resta: " + (x - y));
+            Console.WriteLine("Multiplicación: " + (x * y));
+            Console.WriteLine("División: " + (resu));
 
         }
         static void ejer4()
