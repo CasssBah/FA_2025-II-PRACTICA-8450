@@ -1,0 +1,78 @@
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II
+$ git config --global user.name "Pablo"
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II
+$ git config --global user.email "pablojoelcastilloflores@gmail.com"
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II
+$ git --global
+unknown option: --global
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II
+$ git init
+Initialized empty Git repository in C:/Users/Pablin UPN/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II/.git/
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (master)
+$ echo ".vs/" >> .gitignore
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (master)
+$ git commit -m "Subiendo ejercicio ejercicio1-SEM1"
+[master (root-commit) 669fd0c] Subiendo ejercicio ejercicio1-SEM1
+ 19 files changed, 254 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 FA_2025-II.sln
+ create mode 100644 PythonApplication/PythonApplication.py
+ create mode 100644 PythonApplication/PythonApplication.pyproj
+ create mode 100644 SEMANA1_C#/App.config
+ create mode 100644 SEMANA1_C#/Program.cs
+ create mode 100644 SEMANA1_C#/Properties/AssemblyInfo.cs
+ create mode 100644 SEMANA1_C#/SEMANA1_C#.csproj
+ create mode 100644 SEMANA1_C#/bin/Debug/SEMANA1_C#.exe
+ create mode 100644 SEMANA1_C#/bin/Debug/SEMANA1_C#.exe.config
+ create mode 100644 SEMANA1_C#/bin/Debug/SEMANA1_C#.pdb
+ create mode 100644 SEMANA1_C#/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 SEMANA1_C#/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.csproj.AssemblyReference.cache
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.csproj.CoreCompileInputs.cache
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.csproj.FileListAbsolute.txt
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.exe
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.exe.config
+ create mode 100644 SEMANA1_C#/obj/Debug/SEMANA1_C#.pdb
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (master)
+$ git  branch m- main
+fatal: not a valid object name: 'main'
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (master)
+$ git branch -m main
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ git remote add origin https://github.com/Pablojcf/FA_2025_II_PRACTICA-8450.git
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ git push -u origin main
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (24/24), 10.50 KiB | 3.50 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pablojcf/FA_2025_II_PRACTICA-8450.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ ^C
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$
