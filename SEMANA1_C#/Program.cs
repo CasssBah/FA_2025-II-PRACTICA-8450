@@ -61,7 +61,14 @@ namespace SEMANA1_C_
         }
         static void ejer5()
         {
+            Console.Write("Ingrese número: ");
+            string num = Console.ReadLine();
 
+            int entero =int.Parse(num);
+            double deci = double.Parse(num);
+
+            Console.WriteLine("Resto: ", +entero%2);
+            Console.WriteLine("División ", +(deci/3));
         }
         static void ejer6()
         {
