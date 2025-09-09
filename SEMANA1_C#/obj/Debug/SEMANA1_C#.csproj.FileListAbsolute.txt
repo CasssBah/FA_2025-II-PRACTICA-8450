@@ -6,3 +6,11 @@ C:\Users\UPN\Downloads\FA\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.csproj.Core
 C:\Users\UPN\Downloads\FA\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe
 C:\Users\UPN\Downloads\FA\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.pdb
 C:\Users\UPN\Downloads\FA\FA_2025-II\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe.config
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\bin\Debug\SEMANA1_C#.exe.config
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\bin\Debug\SEMANA1_C#.exe
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\bin\Debug\SEMANA1_C#.pdb
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\obj\Debug\SEMANA1_C#.csproj.AssemblyReference.cache
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe.config
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\obj\Debug\SEMANA1_C#.csproj.CoreCompileInputs.cache
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\obj\Debug\SEMANA1_C#.exe
+C:\Users\geral\Desktop\Python Ejercicios\FA_2025-II-PRACTICA-8450\SEMANA1_C#\obj\Debug\SEMANA1_C#.pdb
