@@ -75,4 +75,29 @@ Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/
 $ ^C
 
 Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ git add .
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ git commit -m "Subiendo c# ejer2 SEM1"
+[main a397ffc] Subiendo c# ejer2 SEM1
+ 2 files changed, 90 insertions(+), 1 deletion(-)
+ create mode 100644 Pasos para subir el proyecto FA_2025-II a github.txt
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.84 KiB | 1.84 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Pablojcf/FA_2025_II_PRACTICA-8450.git
+   669fd0c..a397ffc  main -> main
+
+Pablin UPN@Pablin MINGW64 ~/OneDrive - Universidad Privada del Norte/Documentos/UPN/Ejercicios fundamentos_2do ciclo/SEMANA 03/FA_2025-II (main)
 $
+
