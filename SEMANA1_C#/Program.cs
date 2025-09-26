@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SEMANA1_C_
 {
@@ -10,10 +6,48 @@ namespace SEMANA1_C_
     {
         static void Main(string[] args)
         {
-            ejer2();
-            Console.ReadKey();
+            Menu(); 
         }
-
+        static void Menu()
+        {
+            int opcion;
+            do
+            {
+                Console.WriteLine("\n----- Menú de ejercicios -----");
+                Console.WriteLine("1. Ejercicio 1");
+                Console.WriteLine("2. Ejercicio 2");
+                Console.WriteLine("3. Ejercicio 3");
+                Console.WriteLine("4. Ejercicio 4");
+                Console.WriteLine("5. Ejercicio 5");
+                Console.WriteLine("0. Salir");
+                Console.Write("Seleccione una opción: ");
+                opcion = Convert.ToInt32(Console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                        ejer1();
+                        break;
+                    case 2:
+                        ejer2();
+                        break;
+                    case 3:
+                        ejer3();
+                        break;
+                    case 4:
+                        ejer4();
+                        break;
+                    case 5:
+                        ejer5();
+                        break;
+                    case 0:
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+                    default:
+                        Console.WriteLine("Opción inválida. Intente nuevamente.");
+                        break;
+                }
+            } while (opcion != 0);
+        }   
         static void ejer1()
         {
             string nombre, carrera; //declarando variables
@@ -69,26 +103,6 @@ namespace SEMANA1_C_
 
             Console.WriteLine("Resto: ", +entero%2);
             Console.WriteLine("División ", +(deci/3));
-        }
-        static void ejer6()
-        {
-
-        }
-        static void ejer7()
-        {
-
-        }
-        static void ejer8()
-        {
-
-        }
-        static void ejer9()
-        {
-
-        }
-        static void ejer10()
-        {
-
         }
     }
 }

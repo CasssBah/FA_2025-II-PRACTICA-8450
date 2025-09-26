@@ -1,5 +1,5 @@
-filas = int(input("Ingrese número de filas: "))
-columnas = int(input("Ingrese número de columnas: "))
+﻿filas = int(input("Ingrese número de filas: "))
+columnas = int(input("\nIngrese número de columnas: "))
 print()
 
 i = 0

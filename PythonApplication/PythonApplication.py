@@ -1,49 +1,60 @@
+锘縟ef menu():
+    while True:
+      pass
+      print("\n1. Ejercicio 1")
+      print("2. Ejercicio 2")
+      print("3. Ejercicio 3")
+      print("4. Ejercicio 4")
+      print("5. Ejercicio 5")
+      print("6. Salir")
+      opcion = int(input("\nIngrese una opci贸n: "))
+      match opcion:
+        case 1: ejer1()
+        case 2: ejer2()
+        case 3: ejer3()
+        case 4: ejer4()
+        case 5: ejer5()
+        case 6: exit()
+        case _: print("\nOpci贸n incorrecta")
+
 def ejer1(): #creando metodo ejer1
-       nombre = input("Ingrese su nombreP: ")
-       carrera = input("Ingrese su carrera: ")
+       nombre = input("\nIngrese su nombreP: ")
+       carrera = input("\nIngrese su carrera: ")
 
        print(f"\n{nombre}, bienvenido a FA de {carrera}")
-
-ejer1()
 
 def ejer2():
     print("\"Pablo\"")
 
-ejer2()
-
 def ejer3():
 
-    x = int(input("Ingrese el valor de  x: "))
-    y = int(input("Ingrese el valor de y: "))
+    x = int(input("\nIngrese el valor de  x: "))
+    y = int(input("\nIngrese el valor de y: "))
 
-    print("Suma: ", (x+y))
-    print("Resta: ", (x-y))
-    print("Multiplicaci髇: ", (x*y))
-    print("Divisi髇: ", (x/y))
-       
-ejer3()
+    print("\nSuma: ", (x+y))
+    print("\nResta: ", (x-y))
+    print("\nMultiplicaci贸n: ", (x*y))
+    print("\nDivisi贸n: ", (x/y))
 
-import math #importando la librer韆 math
+import math #importando la librer铆a math
 def ejer4(): 
     
-    num = float(input("Ingrese un n鷐ero decimal: "))
+    num = float(input("Ingrese un n煤mero decimal: "))
 
-    print("Raiz 2: ", math.sqrt(num))
-    print("Redondeado: ", round(num, 0))
-    print("Al cubo: ", math.pow(num,3))
-    print("Raiz 3: ", num**(1/3))
-
-ejer4()
+    print("\nRaiz 2: ", math.sqrt(num))
+    print("\nRedondeado: ", round(num, 0))
+    print("\nAl cubo: ", math.pow(num,3))
+    print("\nRaiz 3: ", num**(1/3))
 
 def ejer5():
 
-    num = input("Ingrese n鷐ero")
+    num = input("\nIngrese n煤mero")
     
     entero = int(num)
     deci = float(num)
 
-    print("Resto: ", (entero%2))
-    print("Divisi髇: ", (deci/3))
+    print("\nResto: ", (entero%2))
+    print("\nDivisi贸n: ", (deci/3))
 
-ejer5()
+menu()
 

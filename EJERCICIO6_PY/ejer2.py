@@ -1,9 +1,9 @@
-sumap = sumai = 0
+﻿sumap = sumai = 0
 while  True:
-    num = int(input("Ingrese un número (0 salir): "))
+    num = int(input("\nIngrese un número (0 salir): "))
 
     if (num<0):
-        print("Número inválido. Ingrese nuevamente" )
+        print("\nNúmero inválido. Ingrese nuevamente" )
         continue
 
     if num== 0:
@@ -14,5 +14,5 @@ while  True:
     else:
         sumai+= num
 
-print("Suma pares: ", sumap)
-print("Suma de impares: ", sumai)
+print("\nSuma pares: ", sumap)
+print("\nSuma de impares: ", sumai)

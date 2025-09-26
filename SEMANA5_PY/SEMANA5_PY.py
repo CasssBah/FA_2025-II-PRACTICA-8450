@@ -1,30 +1,38 @@
+ï»¿def menu():
+    while True:
+        print("\n1. Ejercicio 1")
+        print("2. Ejercicio 2")
+        print("3. Salir")
+        opcion = int(input("\nIngrese una opciÃ³n: "))
+        match opcion:
+            case 1: ejer1()
+            case 2: ejer2()
+            case 3: exit()
+            case _: print("\nOpciÃ³n incorrecta")
+
 def ejer1():
-    edad = int(input("Ingrese su edad: "))
+    edad = int(input("\nIngrese su edad: "))
 
     if edad >= 18:
-        print("Puede votar")
+        print("\nPuede votar")
 
         if edad>=25:
-            print("Candidato para un cargo político")
+            print("\nCandidato para un cargo polÃ­tico")
         else:
-            print("No puede ser candidato para un cargo político")
+            print("\nNo puede ser candidato para un cargo polÃ­tico")
     else:
-        print("No puede votar\nNo puede ejercer un cargo político.")
+        print("\nNo puede votar\nNo puede ejercer un cargo polÃ­tico.")
 
 def ejer2():
-    lado1 = int(input("Ingrese lado1: "))
+    lado1 = int(input("\nIngrese lado1: "))
     lado2 = int(input("Ingrese lado2: "))
     lado3 = int(input("Ingrese lado3: "))
 
     if(lado1 == lado2 ==lado3):
-        print("EQUILATERO")
+        print("\nEQUILATERO")
     elif lado1 ==lado2 or lado1==lado3 or lado2==lado3:
-        print("ISÓSCELES")
+        print("\nISÃ“SCELES")
     else:
-        print("ESCALENO")
-
-        
-
-
-ejer1()
+        print("\nESCALENO")
+menu()
 
